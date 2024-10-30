@@ -1,0 +1,71 @@
+/* .c{
+
+    width: 1400px;
+    height: 400px;
+    border: 2px solid green;
+} */
+.c1{
+    background-image: url(image/img1.jpg),url(image/img2.jpg),url(image/nature11.webp),url(image/img6.jpg);
+    background-repeat: no-repeat;
+
+    background-size: 300px 400px, 300px 300px, 300px 250px, 400px 400px;
+
+    background-position: 0px 0px, 300px 0px, 600px 0px, 900px 0px;
+    /* opacity: 0.5; */
+}
+#h1{
+    opacity: 1;
+    font-size: 40px;
+    color: white;
+    font-weight: bold;
+}
+
+/*   background-origin only applly on background image */
+.c2{
+    width: 1200px;
+    height: 800px;
+    border: 30px dotted red;
+    background-image: url(image/img6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-origin: padding-box; */
+    background-origin: border-box;
+    /* background-origin: content-box; */
+    /* background-origin: content-box; */
+    background-origin: content-box;
+    padding-left: 30px;
+
+}
+
+h1,p{
+    /* padding-left: 60px; */
+    /* margin-left: 30px; */
+    /* padding-left: 50px;
+    padding-top: 10px; */
+    font-size: 20px;
+    color: aqua;
+    font-weight: bold;
+}
+
+/*   background-cliponly applly on background color */
+
+.c3{
+    width: 600px;
+    height: 400px;
+    border: 30px dotted green;
+    background-color: yellow;
+
+    background-clip: border-box;
+    /* background-clip: padding-box; */
+    background-clip: content-box;
+    
+
+    padding-left: 40px;
+  
+
+}
+#d3{
+    color: red;
+    font-weight: bold;
+
+}

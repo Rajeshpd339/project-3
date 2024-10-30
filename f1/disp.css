@@ -1,0 +1,44 @@
+#d1{
+    background-color: aqua;
+}
+
+.p{
+    width: 90%;
+    height: 50vh;
+    border: 10px solid green;
+    display: grid;
+    /* background-color: red; */
+ 
+    /* grid-template-columns: 100px 100px 100px 100px;
+    grid-template-rows: 200px  200px 200px ; */
+    grid-template-columns: repeat(6, 100px);
+    grid-template-rows: repeat(3, 100px);
+    /* grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr; */
+    /* row-gap: 20px;
+    column-gap: 30px; */
+    /* gap: 10px 20px; */
+   
+}
+
+/* .c{
+    width: 40px;
+    height: 40px;
+border:5px solid red ;
+} */
+.c1{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    background-color: red;
+}
+
+.c5{
+    grid-column-start: 3;
+    grid-column-end: 6;
+    background-color: green;
+}
+.c4{
+  grid-row-start: 2;
+  grid-row-end: 4;
+  background-color: darkblue;
+}

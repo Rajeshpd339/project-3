@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    /* background-color: aqua; */
+    background-image: url(image/img1.jpg);
+    background-size: cover;
+    color: white;
+    font-weight: bold;
+    background-repeat: no-repeat;
+    font-size: 25px;
+ 
+}
+.menu-bar{
+    background-color: darkblue;
+    text-align: center;
+
+}
+.menu-bar ul{
+    display: inline-flex;
+    /* display: flex; */
+    list-style: none;
+}
+.menu-bar ul li{
+    padding: 20px;
+    margin: 20px;
+    position: relative;
+    width: 150px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+#act, .menu-bar ul li:hover{
+    background-color: brown;
+    border-radius: 10px;
+}
+.sub-menu-1{
+    display: none;
+
+
+}
+
+.menu-bar ul li:hover .sub-menu-1{
+    display: block;
+    margin-top: 20px;
+    position: absolute;
+    background-color: black;
+    border-radius: 5px;
+    margin-left: 15px;
+
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul{
+    display: block;
+
+}
+
+ .sub-menu-1 ul li{
+    font-size: 15px;
+    border-bottom: solid red;
+
+}
+
+.sub-menu-1 ul li:last-child{
+    border-bottom: none;
+}
+.fa-greater-than{
+    float: right;
+}
+.sub-menu-2{
+    display: none;
+}
+.raj:hover .sub-menu-2{
+    display: block;
+    margin-top: 0px;
+    margin-left: 130px;
+    position: absolute;
+    background-color: yellow;
+    background-image: url(img2.jpeg);
+    background-size: cover;
+    border: 5px solid black;
+    border-radius: 20px;
+}
+
+

@@ -1,0 +1,115 @@
+
+/* 1. Universal selector by default it used for apply css propertes in entire html doumnts */
+*{
+    background-color: aqua;
+}
+/* 2. # is used for indicate the id selector is used for appply the external css  */
+/* we can not give multiple id name for single html elemetns */
+#head1{  
+
+    background-color: red;
+
+}
+/*3.  . is used for idicate the class selector for apply external css we can give multiple class for a single html tag elements. */
+.cse-a{
+    background-color: chartreuse;
+}
+#h2{
+    background-color: blue;
+}
+
+.web-dev-class-1{
+    font-size: 60px;
+    
+}
+#head-2{
+    background-color: black;
+}
+
+/*4.  name selector directly we can write the tah name */
+/* her p is indicating name selector */
+p1{
+    background-color: darkslategrey;
+}
+
+pre{
+    background-color: blue;
+}
+/*5.  this is Descentdant selector  */
+ol li{
+    background-color: red;\
+
+}
+ol{
+    background-color: yellow;
+}
+/* 6. Parents child selector  */
+ul>li{
+    background-color: blueviolet;
+
+}
+
+#html-1{
+    background-color: rgb(241, 122, 142);
+}
+/*7.  this is Adjacent sibling selector */
+h3+P{
+
+    background-color: lawngreen;
+}
+/*8. General sibling selector  */
+
+/* h4~p{
+    background-color: hotpink;
+} */
+
+h1+p{
+    background-color: deepskyblue;
+}
+
+h5~p{
+    background-color: chartreuse;
+}
+/*9.  this is group selector */
+#d1, .c1, #d2,li,th{
+    background-color: mediumvioletred;
+}
+
+/*10. atributes selector.. */
+
+[type="button"]{
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    border: 5px solid red;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,46 @@
+#d2{
+    width: 900px;
+    height: 600px;
+    border: 5px solid red;
+    background-image: url('img1.jpg');
+    background-size: cover;
+}
+.c1{
+    text-align: center;
+}
+h2{
+    letter-spacing: 10px;
+    /* background-color: darkblue; */
+    color:  black;
+    line-height: 10px;
+}
+span{
+    background-color: green;
+    font-size: 30px;
+    text-align: center;
+   word-spacing: 60px;
+}
+.c3{
+
+    text-shadow: 5px 2px 1px red;
+}
+#d5{
+    text-emphasis: circle;
+}
+
+#d6{
+    text-emphasis: triangle;
+}
+
+#d7{
+    text-emphasis: dot;
+}
+.c8{
+    text-emphasis: sesame;
+    font-size: 40px;
+    text-indent: 50px;
+}
+#pr1{
+    text-indent: 30px;
+}
+
